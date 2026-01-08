@@ -36,12 +36,22 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-slate-800">
           {/* Company Info */}
           <div>
-            <div className="mb-6">
-              <span className="text-2xl font-bold text-amber-500">CITYINTEL</span>
-              <span className="block text-sm font-medium text-slate-400">LINERS</span>
+            <div className="flex items-center gap-3 mb-6">
+              <img 
+                src={companyInfo.logo} 
+                alt="CITYINTEL LINERS Logo" 
+                className="h-16 w-16 object-contain rounded-full bg-white shadow-md"
+              />
+              <div>
+                <span className="text-xl font-bold text-amber-500">CITYINTEL</span>
+                <span className="block text-sm font-medium text-slate-400">LINERS</span>
+              </div>
             </div>
+            <p className="text-slate-400 mb-2 text-sm italic">
+              "Powering Construction, Connecting Communities"
+            </p>
             <p className="text-slate-400 mb-6 leading-relaxed">
-              Your trusted partner in reliable transport solutions and general merchandise.
+              Your trusted partner in transport, construction & general merchandise since 2023.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-amber-500 transition-colors group">
