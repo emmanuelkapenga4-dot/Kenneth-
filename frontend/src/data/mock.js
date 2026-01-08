@@ -3,12 +3,15 @@
 export const companyInfo = {
   name: "CITYINTEL LINERS",
   tagline: "Transport, Construction & General Dealers",
+  slogan: "Powering Construction, Connecting Communities",
+  established: "2023",
   description: "Your trusted partner in reliable transport solutions, professional construction services, and quality general merchandise. We deliver excellence in everything we do.",
-  phone: "+260 XXX XXX XXX",
-  email: "info@cityintelliners.com",
-  whatsapp: "+260 XXX XXX XXX",
-  address: "123 Transport Avenue, Lusaka, Zambia",
-  workingHours: "Mon - Sat: 6:00 AM - 8:00 PM"
+  phone: "+260 963 257 733",
+  email: "kennethlukama1991@gmail.com",
+  whatsapp: "+260963257733",
+  address: "Kyawama, Near Airport Area, Solwezi, Zambia",
+  workingHours: "Mon - Sat: 6:00 AM - 8:00 PM",
+  logo: "https://customer-assets.emergentagent.com/job_cityintel-transport/artifacts/xrx6qj1f_WhatsApp%20Image%202026-01-08%20at%202.14.26%20PM.jpeg"
 };
 
 export const services = [
