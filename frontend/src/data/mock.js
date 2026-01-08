@@ -101,12 +101,12 @@ export const fleet = [
 ];
 
 export const routes = [
-  { from: "Lusaka", to: "Ndola", duration: "4 hours" },
-  { from: "Lusaka", to: "Livingstone", duration: "6 hours" },
-  { from: "Lusaka", to: "Kitwe", duration: "4.5 hours" },
-  { from: "Lusaka", to: "Chipata", duration: "5 hours" },
-  { from: "Ndola", to: "Kitwe", duration: "1 hour" },
-  { from: "Lusaka", to: "Solwezi", duration: "7 hours" }
+  { from: "Solwezi", to: "Lusaka", duration: "7 hours" },
+  { from: "Solwezi", to: "Kitwe", duration: "3 hours" },
+  { from: "Solwezi", to: "Ndola", duration: "4 hours" },
+  { from: "Solwezi", to: "Chingola", duration: "2.5 hours" },
+  { from: "Solwezi", to: "Kalumbila", duration: "1 hour" },
+  { from: "Solwezi", to: "Kasempa", duration: "3 hours" }
 ];
 
 export const testimonials = [
