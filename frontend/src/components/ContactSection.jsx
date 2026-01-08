@@ -106,7 +106,7 @@ const ContactSection = () => {
               <div className="mt-10 pt-8 border-t border-white/10">
                 <p className="text-slate-400 mb-4">Quick contact via WhatsApp:</p>
                 <a
-                  href={`https://wa.me/260963257733`}
+                  href="https://wa.me/260963257733?text=Hello%20CITYINTEL%20LINERS%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -115,6 +115,9 @@ const ContactSection = () => {
                     Chat on WhatsApp
                   </Button>
                 </a>
+                <p className="text-slate-500 text-xs mt-3 text-center">
+                  Or send SMS to: <a href="sms:+260963257733" className="text-amber-500 hover:underline">+260 963 257 733</a>
+                </p>
               </div>
             </div>
           </div>
