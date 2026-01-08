@@ -179,13 +179,21 @@ const ContactSection = () => {
                     className="w-full h-12 px-4 rounded-md border border-input bg-background text-sm focus:outline-none focus:ring-2 focus:ring-amber-500"
                   >
                     <option value="">Select a service</option>
-                    <option value="passenger">Passenger Transport</option>
-                    <option value="cargo">Cargo & Freight</option>
-                    <option value="logistics">Logistics Solutions</option>
-                    <option value="hire">Vehicle Hire</option>
-                    <option value="merchandise">General Merchandise</option>
-                    <option value="delivery">Express Delivery</option>
-                    <option value="other">Other</option>
+                    <optgroup label="Transport & Logistics">
+                      <option value="passenger">Passenger Transport</option>
+                      <option value="cargo">Cargo & Freight</option>
+                      <option value="logistics">Logistics Solutions</option>
+                      <option value="hire">Vehicle Hire</option>
+                    </optgroup>
+                    <optgroup label="Construction">
+                      <option value="building">Building & Construction</option>
+                      <option value="welding">Welding & Fabrication</option>
+                      <option value="contracting">General Contracting</option>
+                    </optgroup>
+                    <optgroup label="General">
+                      <option value="merchandise">General Merchandise</option>
+                      <option value="other">Other</option>
+                    </optgroup>
                   </select>
                 </div>
               </div>
