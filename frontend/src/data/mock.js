@@ -2,8 +2,8 @@
 
 export const companyInfo = {
   name: "CITYINTEL LINERS",
-  tagline: "Transport & General Dealers",
-  description: "Your trusted partner in reliable transport solutions and general merchandise. We deliver excellence across every mile.",
+  tagline: "Transport, Construction & General Dealers",
+  description: "Your trusted partner in reliable transport solutions, professional construction services, and quality general merchandise. We deliver excellence in everything we do.",
   phone: "+260 XXX XXX XXX",
   email: "info@cityintelliners.com",
   whatsapp: "+260 XXX XXX XXX",
