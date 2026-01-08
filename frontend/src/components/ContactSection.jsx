@@ -106,7 +106,7 @@ const ContactSection = () => {
               <div className="mt-10 pt-8 border-t border-white/10">
                 <p className="text-slate-400 mb-4">Quick contact via WhatsApp:</p>
                 <a
-                  href={`https://wa.me/${companyInfo.whatsapp.replace(/\s+/g, '')}`}
+                  href={`https://wa.me/260963257733`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
