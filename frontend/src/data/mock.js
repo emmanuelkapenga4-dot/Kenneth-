@@ -16,37 +16,57 @@ export const services = [
     id: 1,
     title: "Passenger Transport",
     description: "Safe, comfortable, and punctual passenger services across major routes. Modern fleet with air conditioning and professional drivers.",
-    icon: "Bus"
+    icon: "Bus",
+    category: "transport"
   },
   {
     id: 2,
     title: "Cargo & Freight",
     description: "Reliable cargo transportation for businesses and individuals. We handle your goods with utmost care and deliver on time.",
-    icon: "Truck"
+    icon: "Truck",
+    category: "transport"
   },
   {
     id: 3,
     title: "Logistics Solutions",
     description: "End-to-end logistics management including warehousing, distribution, and supply chain optimization.",
-    icon: "Package"
+    icon: "Package",
+    category: "transport"
   },
   {
     id: 4,
-    title: "Vehicle Hire",
-    description: "Flexible vehicle rental options for personal and corporate needs. From sedans to coaches, we have you covered.",
-    icon: "Car"
+    title: "Building & Construction",
+    description: "Professional building and construction services for residential, commercial, and industrial projects. Quality craftsmanship guaranteed.",
+    icon: "Building2",
+    category: "construction"
   },
   {
     id: 5,
-    title: "General Merchandise",
-    description: "Quality general goods and supplies at competitive prices. Your one-stop shop for essential commodities.",
-    icon: "ShoppingBag"
+    title: "Welding & Fabrication",
+    description: "Expert welding and metal fabrication services. From structural steel to custom metalwork, we deliver precision and durability.",
+    icon: "Wrench",
+    category: "construction"
   },
   {
     id: 6,
-    title: "Express Delivery",
-    description: "Fast and secure parcel delivery services. Same-day and next-day options available for urgent shipments.",
-    icon: "Zap"
+    title: "General Contracting",
+    description: "Complete construction project management from planning to completion. Renovations, extensions, and new builds handled professionally.",
+    icon: "HardHat",
+    category: "construction"
+  },
+  {
+    id: 7,
+    title: "Vehicle Hire",
+    description: "Flexible vehicle rental options for personal and corporate needs. From sedans to coaches, we have you covered.",
+    icon: "Car",
+    category: "transport"
+  },
+  {
+    id: 8,
+    title: "General Merchandise",
+    description: "Quality general goods and supplies at competitive prices. Your one-stop shop for essential commodities.",
+    icon: "ShoppingBag",
+    category: "general"
   }
 ];
 
