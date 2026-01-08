@@ -17,10 +17,10 @@ const Footer = () => {
   const services = [
     'Passenger Transport',
     'Cargo & Freight',
-    'Logistics Solutions',
+    'Building & Construction',
+    'Welding & Fabrication',
     'Vehicle Hire',
     'General Merchandise',
-    'Express Delivery',
   ];
 
   const scrollToSection = (href) => {
