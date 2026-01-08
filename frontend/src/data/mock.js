@@ -134,8 +134,8 @@ export const testimonials = [
 ];
 
 export const stats = [
-  { label: "Years of Service", value: "15+" },
-  { label: "Happy Customers", value: "50K+" },
-  { label: "Routes Covered", value: "100+" },
-  { label: "Fleet Vehicles", value: "45+" }
+  { label: "Established", value: "2023" },
+  { label: "Happy Customers", value: "500+" },
+  { label: "Routes Covered", value: "50+" },
+  { label: "Fleet Vehicles", value: "15+" }
 ];
