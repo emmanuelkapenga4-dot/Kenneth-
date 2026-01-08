@@ -44,12 +44,17 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="#home" className="flex items-center gap-2">
-              <div className={`font-bold text-xl md:text-2xl transition-colors duration-300 ${
+            <a href="#home" className="flex items-center gap-3">
+              <img 
+                src={companyInfo.logo} 
+                alt="CITYINTEL LINERS Logo" 
+                className="h-14 w-14 object-contain rounded-full bg-white shadow-md"
+              />
+              <div className={`hidden sm:block font-bold text-lg transition-colors duration-300 ${
                 isScrolled ? 'text-slate-900' : 'text-white'
               }`}>
                 <span className="text-amber-500">CITYINTEL</span>
-                <span className="block text-sm font-medium opacity-80">LINERS</span>
+                <span className="block text-xs font-medium opacity-80">LINERS</span>
               </div>
             </a>
           </div>
@@ -109,10 +114,12 @@ const Navbar = () => {
               {link.name}
             </button>
           ))}
-          <Button className="w-full bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold mt-4">
-            <Phone className="w-4 h-4 mr-2" />
-            Call Now
-          </Button>
+          <a href={`tel:${companyInfo.phone}`}>
+            <Button className="w-full bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold mt-4">
+              <Phone className="w-4 h-4 mr-2" />
+              Call Now
+            </Button>
+          </a>
         </div>
       </div>
     </nav>
